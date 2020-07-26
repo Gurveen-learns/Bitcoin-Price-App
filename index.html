@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitCoin Price</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            
+        }
+        #bcPrice {
+            color: rgb(212, 63, 95);
+            background-color:darksalmon;
+            }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+       <h3>Current Bitcoin Price is</h3>
+       <h1 id="bcPrice"></h1>
+       <button id="refreshBtn">Refresh</button>
+   </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
